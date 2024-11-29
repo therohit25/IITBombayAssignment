@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.imgClass {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  border: 2px solid transparent;
+}
+.imgClass:hover {
+  transform: scale(0.9);
+  filter: grayscale(100%);
+  border: 2px solid #3498db;
+  cursor: pointer;
+}

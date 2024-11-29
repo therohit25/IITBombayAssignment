@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es2016", "dom"],
+    "target": "es6",
+    "module": "es6",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": ["*.ts", "classes/**/*.ts"]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "species": "Big Cat",
+    "name": "Lion",
+    "size": "4",
+    "location": "Savannah, Africa",
+    "image": "https://media.istockphoto.com/id/93216996/photo/lion-panthera-leo.webp?a=1&b=1&s=612x612&w=0&k=20&c=puuPtWXhw-hnT8nHSzQ9KxA6HRj4K7iFJfvOThF5Qxc="
+  },
+  {
+    "id": 2,
+    "species": "Big Cat",
+    "name": "Tiger",
+    "size": "3.5",
+    "location": "Sundarbans, India",
+    "image": "https://media.istockphoto.com/id/520373654/photo/bengal-tiger-on-a-tree-wildlife-shot.webp?a=1&b=1&s=612x612&w=0&k=20&c=XX4i-x7iD6tSucxd6H24dF5595cAK-eGolxTcSxordg="
+  },
+  {
+    "id": 3,
+    "species": "Big Cat",
+    "name": "Leopard",
+    "size": "2.5",
+    "location": "Rainforest, Brazil",
+    "image": "https://media.istockphoto.com/id/1309238206/photo/leopard.webp?a=1&b=1&s=612x612&w=0&k=20&c=OVCkTpuBVFzPurQWVNMA7EkFTYfucBXmofuCABedrFM="
+  },
+  {
+    "id": 4,
+    "species": "Big Cat",
+    "name": "Cheetah",
+    "size": "3",
+    "location": "Serengeti, Tanzania",
+    "image": "https://media.istockphoto.com/id/511850954/photo/cheetah.webp?a=1&b=1&s=612x612&w=0&k=20&c=P7D4amAtW8-dqqGOyz-rqdch6RdAb6O9RhRChzgZ5lc="
+  }
+]

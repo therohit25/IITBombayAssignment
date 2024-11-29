@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "species": "Dog",
+    "name": "Golden Retriever",
+    "size": "2",
+    "location": "New York City",
+    "image": "https://media.istockphoto.com/id/1460537153/photo/a-golden-retriever-running-with-her-ball-in-yard-by-a-tree-5-year-old.webp?a=1&b=1&s=612x612&w=0&k=20&c=082_D9wwMg6xMN0ZiN7yJIvosCyYW9rgEqhqBuo5IEY="
+  },
+  {
+    "id": 2,
+    "species": "Dog",
+    "name": "Bulldog",
+    "size": "1.5",
+    "location": "Los Angeles",
+    "image": "https://media.istockphoto.com/id/153203909/photo/english-bulldog-10-months-old-sitting-against-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=rSx1KAjYQK1Rk3BA2MdcuOTJbXOpRFODG5qJtsYsVPI="
+  },
+  {
+    "id": 3,
+    "species": "Dog",
+    "name": "German Shepherd",
+    "size": "2.5",
+    "location": "London",
+    "image": "https://media.istockphoto.com/id/926735822/photo/dog-outdoors-in-nature.webp?a=1&b=1&s=612x612&w=0&k=20&c=FqjC4Qco8NrJh677YNIbcb8sPigXTvdVmTNuvvG2QXs="
+  },
+  {
+    "id": 4,
+    "species": "Dog",
+    "name": "Poodle",
+    "size": "1",
+    "location": "Paris",
+    "image": "https://media.istockphoto.com/id/598175960/photo/cute-puppy.webp?a=1&b=1&s=612x612&w=0&k=20&c=JjcQzCTZyoapm6uFulmhmoyQEjehDeVhAo1JlCpTO6g="
+  }
+]
