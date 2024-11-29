@@ -49,6 +49,7 @@ class Animal {
         }
     }
     sortBy(parmater) {
+        console.log(parmater);
         switch (parmater) {
             case "id":
             case "size":
@@ -143,16 +144,13 @@ class Animal {
         if (!this.animalTable) {
             return;
         }
-        if (!this.sortedBy || !this.sortOptions.includes(this.sortedBy)) {
-            this.sortedBy = "name";
-        }
         this.animalTable.innerHTML = `
     <div class="container">
       <h3 class="text-capitalize">${this.species} Table</h3>
       <div class="row mb-3">
         <div class="col-12">
           <select id='${this.species}-sortBy' class="form-select text-capitalize">
-            <option value="" disabled>--Sort By--</option>
+            <option value="" disabled selected>--Sort By--</option>
             ${this.sortOptions
             .map((item) => `<option value="${item}" ${item === this.sortedBy ? "selected" : ""}>${item}</option>`)
             .join("")}
@@ -212,7 +210,9 @@ class Animal {
         if (sortBy) {
             sortBy.addEventListener("change", (e) => {
                 var _a;
+                console.log("CAlling");
                 const selectedValue = ((_a = e.target) === null || _a === void 0 ? void 0 : _a.value) || "";
+                console.log(selectedValue);
                 if (selectedValue !== this.sortedBy) {
                     this.sortBy(selectedValue);
                     this.sortedBy = selectedValue;

@@ -200,9 +200,6 @@ class Animal {
       return;
     }
 
-    if (!this.sortedBy || !this.sortOptions.includes(this.sortedBy)) {
-      this.sortedBy = "name";
-    }
     this.animalTable.innerHTML = `
     <div class="container">
       <h3 class="text-capitalize">${this.species} Table</h3>
@@ -211,7 +208,7 @@ class Animal {
           <select id='${
             this.species
           }-sortBy' class="form-select text-capitalize">
-            <option value="" disabled>--Sort By--</option>
+            <option value="" disabled selected>--Sort By--</option>
             ${this.sortOptions
               .map(
                 (item) =>
